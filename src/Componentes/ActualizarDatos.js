@@ -22,6 +22,7 @@ export default function ActualizarDatos(props) {
     error:false
   });
   const [id, setId] = useState([])
+  const [mensaje, setMensaje] = useState("")
   const [open, setOpen] = React.useState(false);
   
       //Actualizar Registro
@@ -32,7 +33,13 @@ export default function ActualizarDatos(props) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({categoria, descripcion, color, codigo}),
-     });
+     }).then(response => {
+    if (response.ok){
+      return setMensaje("Registro Exitoso")
+    }else if(response.error){
+      return setMensaje(response.error)
+    }
+  });
     };
  
   const handleClickOpen = () => {
@@ -50,7 +57,7 @@ export default function ActualizarDatos(props) {
       <Link variant="outlined" onClick={handleClickOpen}>
         Editar
       </Link>
-      <Dialog open={open} onClose={handleClose}>
+      <Dialog open={open} fullScreen onClose={handleClose}>
         <DialogTitle>Editar Registro</DialogTitle>
         <DialogContent>
         Desea Actualizar el siguiente registro con: 
@@ -162,6 +169,7 @@ export default function ActualizarDatos(props) {
       </Button>
         </DialogActions>
         <DialogContent id="demo">
+           {mensaje}
         </DialogContent>
       </Dialog>
     </div>

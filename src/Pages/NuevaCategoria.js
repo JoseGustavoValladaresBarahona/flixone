@@ -46,6 +46,8 @@ const DatosCategoria = () => {
         alignItems: "center",
         justifyContent: "center",
         flexDirection: "column",
+        marginLeft:"15%",
+        marginRight:"15%"
       }}
       onSubmit={Registro}
     > <Typography variant="h4">Nueva Categoria
@@ -121,6 +123,7 @@ const DatosCategoria = () => {
           setCodigo(e.target.value);
         }}
       />
+      <br/>
      <div>
       <Button variant="contained" type="submit" onClick={()=>Registro}>
         Enviar

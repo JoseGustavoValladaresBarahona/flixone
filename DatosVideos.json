@@ -135,6 +135,13 @@
       "color": "#FFBA05",
       "codigo": "8",
       "id": 8
+    },
+    {
+      "categoria": "Xxxxxx",
+      "descripcion": "Xxxxxx",
+      "color": "#00ffff",
+      "codigo": "56",
+      "id": 9
     }
   ]
 }

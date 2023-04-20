@@ -59,6 +59,8 @@ const DatosVideo = () => {
         alignItems: "center",
         justifyContent: "center",
         flexDirection: "column",
+        marginLeft:"15%",
+        marginRight:"15%"
       }}
       >
     <Typography variant="h4">Nuevo Video 
@@ -164,12 +166,14 @@ const DatosVideo = () => {
           setCodigo(e.target.value);
         }}
       />
+      <br/>
       <Button variant="contained" type="submit"
         onClick={()=>handleSubmit}
       >
         Registrar
       </Button>
     </Box>
+    <br/>
     <Footer />
     </>
   );

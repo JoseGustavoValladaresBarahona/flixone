@@ -19,6 +19,8 @@ import styled from "styled-components"
   
   const Div = styled.div`
       background-color: #000000;
+      margin-left:15%;
+      margin-right:15%;
   `;
      const lista = cargos.map(cargo =>{
         return <VideoCard categoria={cargo.categoria} color={cargo.color}/>
