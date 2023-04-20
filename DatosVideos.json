@@ -1,0 +1,140 @@
+{
+  "Videos": [
+    {
+      "linkVideo": "https://www.youtube.com/embed/rpvrLaBQwgg",
+      "categoria": "Front End",
+      "descripcion": "Equipo Front End",
+      "id": 1
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/UuAX5azcvDQ",
+      "categoria": "Front End",
+      "descripcion": "Aprendiendo a utilizar Figma",
+      "id": 2
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/UNeKzI2WHgQ",
+      "categoria": "Front End",
+      "descripcion": "Frameworks de Front End",
+      "id": 3
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/FEdqGdtZuwc",
+      "categoria": "Front End",
+      "descripcion": "Bucles y bucles anidados en Javascript",
+      "id": 4
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/R9uaBxgCkyA",
+      "categoria": "Front End",
+      "descripcion": "Diferencia entre Front End y Back End",
+      "id": 5
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/EB4vWLzfVcI",
+      "categoria": "Front End",
+      "descripcion": "Consejos de Css Flexbox",
+      "id": 6
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/GrEO8nZzyZM",
+      "categoria": "Back End",
+      "descripcion": "La Magia detrás de Java",
+      "id": 7
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/t-iqt1b2qqk",
+      "categoria": "Back End",
+      "descripcion": "Spring Framework",
+      "id": 8
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/3kNuK-XAHEY",
+      "categoria": "Back End",
+      "descripcion": "Por qué utilizar Java?",
+      "id": 9
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/YhR7Zp8NUzE",
+      "categoria": "Devops",
+      "descripcion": "Las 7 skill más deseadas",
+      "id": 12
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/JMKZMa0tMhQ",
+      "categoria": "Data Sciencia",
+      "descripcion": "Python para ciencia de datos",
+      "id": 13
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/8J0AoPZMVxA",
+      "categoria": "Data Sciencia",
+      "descripcion": "Base de datos MySql de datos",
+      "id": 14
+    },
+    {
+      "linkVideo": "https://www.youtube.com/embed/7_UXo-aqAeM",
+      "categoria": "Data Sciencia",
+      "descripcion": "Por qué estudiar Dat Sciencia",
+      "id": 15
+    }
+  ],
+  "Categorias": [
+    {
+      "categoria": "Front End",
+      "descripcion": "Desarrollo de sitios web responsivos",
+      "color": "#6BD1FF",
+      "codigo": "1",
+      "id": 1
+    },
+    {
+      "categoria": "Back End",
+      "descripcion": "Desarrollo del servidor",
+      "color": "#00C86F",
+      "codigo": "2",
+      "id": 2
+    },
+    {
+      "categoria": "Devops",
+      "descripcion": "Skill",
+      "color": "#F5F5F5",
+      "codigo": "3",
+      "id": 3
+    },
+    {
+      "categoria": "Data Sciencia",
+      "descripcion": "Ciencia de Datos",
+      "color": "#9CD33B",
+      "codigo": "4",
+      "id": 4
+    },
+    {
+      "categoria": "Infraestructura",
+      "descripcion": "Redes",
+      "color": "#",
+      "codigo": "5",
+      "id": 5
+    },
+    {
+      "categoria": "Marketing",
+      "descripcion": "Comercio digital",
+      "color": "#6B5BE2",
+      "codigo": "6",
+      "id": 6
+    },
+    {
+      "categoria": "Ux",
+      "descripcion": "Experiencia de usuario",
+      "color": "#DC6EBE",
+      "codigo": "7",
+      "id": 7
+    },
+    {
+      "categoria": "Movil",
+      "descripcion": "Desarrollo de app en moviles",
+      "color": "#FFBA05",
+      "codigo": "8",
+      "id": 8
+    }
+  ]
+}
