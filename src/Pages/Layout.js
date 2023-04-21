@@ -2,7 +2,9 @@ import { Outlet, Link } from "react-router-dom";
 import styled from "styled-components"
 import logoAluraFlix from "../Imagenes/logoAluraFlix.png"
 import GlobalEstilos from "../Global"
-
+import HomeIcon from '@mui/icons-material/Home';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import AddCardIcon from '@mui/icons-material/AddCard';
 
 const Layout = () => {
     const Div = styled.div`
@@ -29,22 +31,16 @@ const Layout = () => {
       <Nav>
         <Div>
           <ImgHeader src={logoAluraFlix} alt="logo"/>
-         <ul>
-            <li>
+
                <Link to="/" style={{ 
                color: 'white'
-               }}>Home</Link>
-            </li>
-            <br/>
-           <li> 
-             <Link to="/Nuevo" style={{ color: 'white'}}>Nuevo Video</Link>
-           </li>
-           <br/>
-            <li>
-               <Link to="/NuevaCategoria" style={{ color: 'white' ,backgroundColor:"#2A7AE4"
-               }}>Nueva Categoria</Link>
-            </li>
-          </ul>
+               }}><HomeIcon></HomeIcon></Link>
+            
+             <Link to="/Nuevo" style={{ color: 'white'}}><VideoLibraryIcon ></VideoLibraryIcon></Link>
+           
+               <Link to="/NuevaCategoria" style={{ color: 'white' 
+               }}><AddCardIcon ></AddCardIcon></Link>
+            
         </Div>
       </Nav>
       <Outlet />

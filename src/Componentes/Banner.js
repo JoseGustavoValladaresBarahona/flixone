@@ -19,9 +19,10 @@ function Banner(){
     background-repeat: no-repeat;
     background-position: center;
     width:100%; 
-    @media (max-width:720px){
+    @media (max-width: 720px){
        top:200px;
     }
+
   `;
   return(
     <div>
